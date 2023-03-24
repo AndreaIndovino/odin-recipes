@@ -1,0 +1,25 @@
+/* strawberry.css */
+
+#title {
+    text-align: center;
+    background-color: red;
+    font-size: 38px;
+}
+
+.description {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section.ingredients {
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.section.steps {
+    text-align: center;
+    color: red;
+    background-color: yellow;
+}
