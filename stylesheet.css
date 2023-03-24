@@ -1,0 +1,15 @@
+/* stylesheet.css */ 
+
+div {
+    background-color: darkblue;
+    color: red;
+    text-align: center;
+    font-size: 80px;
+}
+
+button { 
+        background-color: yellow;
+        color: black;
+        text-align: left;
+        font-size: 25px;
+    }
