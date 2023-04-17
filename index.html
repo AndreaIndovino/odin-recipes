@@ -4,22 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First HTML Project</title>
+    <title>FlixTaste: My First HTML Project</title>
     <link rel="stylesheet" type="text/css" href="../odin-recipes/stylesheet.css">
+    <script src="https://kit.fontawesome.com/06a651c8da.js"></script>
 </head>
 
 <body>
-    <div class="header">Odin Recipes</div>
-    
-    <div class="recipes">
-        <button>
-            <ul>
-                <li><a href="recipes/Norma.html">Pasta alla Norma</a></li>
-                <li><a href="recipes/mint_chicken.html">Mint Chicken</a> </li>
-                <li><a href="recipes/Strawberry_Rhubarb_Crisp.html">Strawberry Rhubarb Crisp</a></li>
-                <li><a href="recipes/spiked_lemonade.html">Spiked Lemonade</a></li>
-            </ul>
-        </button>
+    <div id="navbar">
+        <img id="logo" src="./Images/logo.png.png" alt="logo">
+        <ul id="navlinks">
+            <li>Home</li>
+            <li>Recipes</li>
+            <li>About</li>
+        </ul>
+        <img id="searchicon" src="./Images/iconsearch.png" alt="searchicon">
     </div>
+
+    <div id="preview-content"> 
+        <video autoplay muted>  <!-- autoplay e muted bool value-->
+            <source src="./video/footage.webm">
+        </video>
+        <div id="preview-overlay"></div>
+            <div id="preview-details">
+                <h3>Cook something tasty!</h3>
+                <button><i class="fas fa-play"></i>Guarda</button>
+                <button><i class="fas fa-volume-mute"></i></button>
+            </div>
+        </div>
+
+    <div class="categories">
+        <div class="category">
+            <h3>First Course</h3>
+            <img src="./thumbnails/Norma1.jpg">
+        </div>
+        <div class="category">
+            <h3>Main Course</h3>
+            <img src="./thumbnails/Mint_Chicken.jpg">
+        </div>
+        <div class="category">
+            <h3>Desserts</h3>
+            <img src="./thumbnails/Strawberry_Rhubarb_Crisp.jpg">
+        </div>
+        <div class="category">
+            <h3>Drinks</h3>
+            <img src="./thumbnails/spiked_lemonade.jpg">
+        </div>
+    </div>
+    
 </body>
 </html>
