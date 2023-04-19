@@ -1,0 +1,44 @@
+/* norma.css */
+
+body {
+    color: white;
+    font-family: 'Arial';
+    background-color: black;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 45px;
+    margin-left: 20px;
+}
+
+img {
+    width: 400px;
+    border: solid 2px;
+    border-radius: 10px;
+}
+
+.p1 {
+    text-align: justify;
+    margin-left: 25px;
+}
+
+.p2, .p3 {
+    font-size: 18px;
+}
+
+.p3 {
+    text-align: center;
+}
+
+h2, h3 {
+    color: black;
+    background-color: red;
+    font-weight: bold;
+    text-align: center;
+}
