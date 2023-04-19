@@ -1,9 +1,9 @@
 /* mintstyle.css */
 
 body {
-    color: black;
+    color: white;
     font-family: 'Arial';
-    background-color: burlywood;
+    background-color: black;
 }
 
 #header {
@@ -13,7 +13,6 @@ body {
 }
 
 h1 {
-    color: white;
     font-size: 45px;
     margin-left: 20px;
 }
@@ -31,6 +30,10 @@ img {
 
 .p2, .p3 {
     font-size: 18px;
+}
+
+.p3 {
+    text-align: center;
 }
 
 h2, h3 {
