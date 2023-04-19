@@ -1,38 +1,36 @@
 /* lemonade.css */
 
+body {
+    color: white;
+    font-family: 'Arial';
+    background-color: black;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 h1 {
-    text-align: center;
-    background-color: yellow;
-    font-size: 38px;
+    font-size: 45px;
+    margin-left: 20px;
 }
 
 img {
-    image-rendering: optimizeQuality;
-    height: auto; width: auto;
+    width: 400px;
+    border: solid 2px;
+    border-radius: 10px;
 }
 
-h2 {
-    text-align: center;
-    font-size: 25px;
+.p1 {
+    text-align: justify;
+    margin-left: 25px;
 }
 
-p1 {
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.section.ingredients {
-    text-align: center;
+h2, h3 {
+    color: black;
     background-color: red;
-    color: whitesmoke;
-}
-
-.section.steps {
+    font-weight: bold;
     text-align: center;
-    background-color: yellow;
-    color: red;
-}
-
-h4 {
-    font-size: 30px;
-    background-color: blue;
 }
